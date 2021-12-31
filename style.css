@@ -1,0 +1,223 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: 100%;
+  font-family: "Monti Sans";
+  line-height: 130%;
+}
+button {
+  cursor: pointer;
+}
+a {
+  cursor: pointer;
+}
+img {
+  width: 250px;
+  cursor: pointer;
+}
+.info {
+  position: fixed;
+  display: flex;
+  height: 100%;
+  width: calc(50% - 1px);
+  text-align: center;
+  justify-content: center;
+  padding-top: 5%;
+  display: none;
+}
+.line {
+  position: fixed;
+  margin-left: calc(50% - 20px);
+  border: solid 40px;
+  height: 100%;
+  color: red;
+  opacity: 0%;
+}
+.line:hover + .info {
+  display: flex;
+}
+#left::-webkit-scrollbar {
+  display: none;
+}
+#right::-webkit-scrollbar {
+  display: none;
+}
+.spacer {
+  background-color: yellow;
+  height: 2000px;
+}
+#left {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: calc(50% - 1px);
+  float: left;
+  border-right: solid thin;
+  overflow: scroll;
+}
+#right {
+  height: 100vh;
+  float: left;
+  width: calc(50% - 1px);
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+#L-0 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#R-0, #R-1, #R-2, #R-3, #R-4, #R-5, #R-6, #R-7, #R-8, #R-9, #R-10, #R-11, #R-12, #R-13 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#R-0 {
+  background-color: orangered;
+}
+#R-1 {
+  background-color: darkkhaki;
+}
+#R-2 {
+  background-color: magenta;
+}
+#R-3 {
+  background-color: orangered;
+}
+#R-4 {
+  background-color: darkkhaki;
+}
+#R-5 {
+  background-color: magenta;
+}
+#R-6 {
+  background-color: orangered;
+}
+#R-7 {
+  background-color: darkkhaki;
+}
+#R-8 {
+  background-color: magenta;
+}
+#R-9 {
+  background-color: orangered;
+}
+#R-10 {
+  background-color: darkkhaki;
+}
+#R-11 {
+  background-color: magenta;
+}
+#R-12 {
+  background-color: orangered;
+}
+#R-13 {
+  background-color: darkkhaki;
+}
+/**
+body {
+  font-size: 20px;
+  position: relative;
+}
+table {
+  border-spacing: 0px;
+}
+td, th {
+  border-bottom: solid thin;
+  border-right: solid thin;
+  width: 100vh;
+  height: 20vh;
+}
+.top {
+  border-top: solid thin;
+}
+.left {
+  border-left: solid thin;
+}
+#one {
+  background-color: RGB(103,103,171);
+  width: 50%;
+  height: 20vh;
+}
+#two {
+  background-color: RGB(147,149,151);
+  width: 50%;
+  height: 20vh;
+}
+#three {
+  background-color: RGB(244,222,77);
+  width: 50%;
+  height: 20vh;
+}
+#four {
+  background-color: RGB(15,76,129);
+  width: 50%;
+  height: 20vh;
+}
+#five {
+  background-color: RGB(254	111	97);
+  width: 50%;
+  height: 20vh;
+}
+#six {
+  background-color: RGB(95	75	139);
+  width: 50%;
+  height: 20vh;
+}
+#seven {
+  background-color: RGB(136	176	75);
+  width: 50%;
+  height: 20vh;
+}
+#eight {
+  background-color: RGB(247	202	201);
+  width: 50%;
+  height: 20vh;
+}
+#nine {
+  background-color: RGB(145	168	208);
+  width: 50%;
+  height: 20vh;
+}
+#ten {
+  background-color: RGB(150	79	76);
+  width: 50%;
+  height: 20vh;
+}
+#eleven {
+  background-color: RGB(172	94	153);
+  width: 50%;
+  height: 20vh;
+}
+#twelve {
+  background-color: RGB(0	148	115);
+  width: 50%;
+  height: 20vh;
+}
+#thirteen {
+  background-color: RGB(221	64	36);
+  width: 50%;
+  height: 20vh;
+}
+#fourteen {
+  background-color: RGB(217	78	112);
+  width: 50%;
+  height: 20vh;
+}
+#fifteen {
+  background-color: RGB(68	181	170);
+  width: 50%;
+  height: 20vh;
+}
+#sixteen {
+  background-color: RGB(239	192	90);
+  width: 50%;
+  height: 20vh;
+}
+**/
