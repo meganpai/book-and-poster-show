@@ -1,4 +1,8 @@
-html {
+@font-face {
+  font-family: "Selectric";
+  src: url("SelectricMono.otf");
+}  
+  html {
   height: 100%;
 }
 body {
